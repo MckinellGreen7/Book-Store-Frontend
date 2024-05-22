@@ -20,7 +20,7 @@ const CreateBooks = () => {
         }
         setLoading(true)
         axios
-        .post(`https://book-store-cikl.onrender.com//books`,data)
+        .post(`https://book-store-cikl.onrender.com/books`,data)
         .then(()=>{
             // console.log(response.data)
             setLoading(false)
